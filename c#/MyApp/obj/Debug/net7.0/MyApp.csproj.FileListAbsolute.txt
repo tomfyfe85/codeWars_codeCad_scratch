@@ -1,0 +1,15 @@
+/Users/tomfyfe/codes/projects/codeWars/MyApp/bin/Debug/net7.0/MyApp
+/Users/tomfyfe/codes/projects/codeWars/MyApp/bin/Debug/net7.0/MyApp.deps.json
+/Users/tomfyfe/codes/projects/codeWars/MyApp/bin/Debug/net7.0/MyApp.runtimeconfig.json
+/Users/tomfyfe/codes/projects/codeWars/MyApp/bin/Debug/net7.0/MyApp.dll
+/Users/tomfyfe/codes/projects/codeWars/MyApp/bin/Debug/net7.0/MyApp.pdb
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.csproj.AssemblyReference.cache
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.AssemblyInfoInputs.cache
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.AssemblyInfo.cs
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.csproj.CoreCompileInputs.cache
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.dll
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/refint/MyApp.dll
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.pdb
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/MyApp.genruntimeconfig.cache
+/Users/tomfyfe/codes/projects/codeWars/MyApp/obj/Debug/net7.0/ref/MyApp.dll

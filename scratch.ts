@@ -1,8 +1,9 @@
-const operations = {
-  add: (a, b) => a + b,
-  subtract: (a, b) => a - b,
-  multiply: (a, b) => a * b,
-  divide: (a, b) => a / b,
-};
+function joinCharacters(N: number, characterStream: string): void {
+  
+  const joinedString = characterStream.replace(/\s/g, '');
 
-console.log(operations["add"](1, 2));
+  
+  console.log(joinedString);
+}
+
+joinCharacters(4, "o m a r");
