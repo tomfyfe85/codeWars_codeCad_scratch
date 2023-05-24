@@ -18,4 +18,4 @@ var findOdd = function (xs) {
     }
     return final || 0;
 };
-console.log(findOdd([1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1]));
+console.log(findOdd([1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1, 1]));
