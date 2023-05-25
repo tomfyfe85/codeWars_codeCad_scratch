@@ -10,27 +10,44 @@
 //   //   process.stdout.write(data + "\n");
 // });
 
-const readline = require("readline");
+// const readline = require("readline");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
 
-let number;
+// let number;
+// let string;
+
+// rl.question("", (numInput) => {
+//   number = parseInt(numInput);
+
+//   rl.question("", (strInput) => {
+//     string = strInput;
+
+//     function joinCharacters(num, str) {
+//       var joinedString = str.replace(/\s/g, "");
+//       return joinedString;
+//     }
+//     console.log(joinCharacters(number, string));
+//     rl.close();
+//   });
+// });
+
+// Node.js program to demonstrate the
+// process.stdin Property
+
+// Enter any texts ( User input)
 let string;
-
-rl.question("", (numInput) => {
-  number = parseInt(numInput);
-
-  rl.question("", (strInput) => {
-    string = strInput;
-
-    function joinCharacters(num, str) {
-      var joinedString = str.replace(/\s/g, "");
-      return joinedString;
-    }
-    console.log(joinCharacters(number, string));
-    rl.close();
-  });
+process.stdin.on("data", (data) => {
+  string = data.toString();
+  //   console.log(`${string} 666`);
+  process.exit();
 });
+
+
+// process.stdin.on('data', data => {
+//     console.log(`You typed ${data.toString()}`);
+//     process.exit();
+//   });

@@ -1,9 +1,17 @@
 using System;
 
-class Hello
+public class HelloWorld
 {
-  static void Main(string[] args)
-  {
-    Console.WriteLine("Hello, World!");
-  }
+    static public void Main()
+    {
+        string line;
+        line = Console.ReadLine();
+        int N = Convert.ToInt32(line);
+        line = Console.ReadLine();
+
+        string[] words = line.Split();
+        string result = string.Join("", words);
+
+        Console.Out.WriteLine(result);
+    }
 }
