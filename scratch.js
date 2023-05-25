@@ -41,13 +41,18 @@
 // Enter any texts ( User input)
 let string;
 process.stdin.on("data", (data) => {
+    
+const reg = new RegExp('^[0-9]+$');
+
+    
   string = data.toString();
-  //   console.log(`${string} 666`);
-  process.exit();
+  if (!reg.test(string)) {
+    console.log(string);
+  }
 });
 
-
-// process.stdin.on('data', data => {
-//     console.log(`You typed ${data.toString()}`);
-//     process.exit();
-//   });
+// if () {
+//     console.log("if");
+//     let joinedString = string.replace(/\s/g, "");
+//     console.log(joinedString);
+//   }
