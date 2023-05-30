@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var products_1 = require("./products");
+var products_1 = require("../products");
 var productName = 'fanny pack';
 function item(value) {
     return value.name === productName;
