@@ -21,5 +21,3 @@ function pre(order) {
 }
 
 const preOrder = products.filter(pre) 
-
-console.log('test')
