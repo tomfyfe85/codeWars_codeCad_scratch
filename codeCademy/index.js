@@ -6,5 +6,13 @@ function item(value) {
     return value.name === productName;
 }
 var product = products_1.default.filter(item);
-// const product = products.filter(product => product.name === productName)[0];
-console.log(product[0].price);
+// const product = products.filter(product => product.name === productName);
+console.log(product);
+function pre(order) {
+    var stringVal = JSON.parse(order.preOrder);
+    if (stringVal) {
+        console.log(order.name);
+        console.log('we’ll send you a message when it’s on the way');
+    }
+}
+var preOrder = products_1.default.filter(pre);
