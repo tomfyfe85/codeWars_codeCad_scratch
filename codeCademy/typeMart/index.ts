@@ -21,3 +21,8 @@ function pre(order) {
 }
 
 const preOrder = products.filter(pre) 
+
+let shipping : number; 
+let taxPercent : number;
+let taxTotal : number;
+let total : number;
